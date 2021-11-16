@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="h%bxqo1%PGqV-wOZFQlS">bool</variable></variables><block type="pxt-on-start" id="r|?TF@trDSv8noGv9jQe" x="-557" y="-297"/><block type="device_forever" id="Jq#$H63.PM_XkmrVaQ@U" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="C?wiJwYERoo2=z;IppU("><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="pha76i7E}u8gxwa8MxTV"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_digital_pin" id="kIZo7!Bye(F6H4#lgSth"><field name="name">DigitalPin.P16</field></block></value><value name="B"><shadow type="math_number" id="8gZ1LC?q*Uui7N.MwX@="><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="variables_set" id="BG5nSdWm?SG(#~%nme~{"><field name="VAR" id="h%bxqo1%PGqV-wOZFQlS">bool</field><value name="VALUE"><shadow type="math_number" id="=p_E$o{t,gZKdOCT6cPo"><field name="NUM">1</field></shadow></value></block></statement><next><block type="controls_if" id="9G;I_!SjI6XPP}[n!b*`"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="w;8Y/:uvfwcTY4n_,Hm]"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id=";HTV!F#EWrx_y2sDwS-J"><field name="VAR" id="h%bxqo1%PGqV-wOZFQlS">bool</field></block></value><value name="B"><shadow type="math_number" id="T~WLg9E;c}-Q-ccu2-X}"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="jJOEM|#(PLoiu(vv;OwM"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="ZMs?U`h^AN-m(^/)Y:CL"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></statement><statement name="ELSE"><block type="device_clear_display" id=")VP6+Mw@O55BUZzVeYAA"/></statement></block></next></block></statement></block><block type="device_button_event" id="#D?o^I!43)3V?LWKI,.u" x="292" y="373"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="k6KWeVW!2~Cz?|`s)+_K"><field name="VAR" id="h%bxqo1%PGqV-wOZFQlS">bool</field><value name="VALUE"><shadow type="math_number" id="kPY_QuM_*L*P1rkS-%:h"><field name="NUM">0</field></shadow></value></block></statement></block></xml>
